@@ -5,7 +5,7 @@
     "outboundTag": "proxy",
     "domain": [
       "rezka.ag",
-      "v1.astar.bz"
+      "v1.astar.bz",
       "www.vpngate.net"
     ],
     "enabled": true
