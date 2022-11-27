@@ -1,0 +1,23 @@
+[
+  {
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": [],
+    "protocol": [],
+    "enabled": true
+  },
+  {
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "rezka.ag",
+      "v1.astar.bz"
+    ],
+    "protocol": [],
+    "enabled": true
+  }
+]
