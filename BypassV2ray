@@ -1,22 +1,22 @@
 [
   {
+    "id": "5714299276509772905",
     "port": "0-65535",
-    "inboundTag": [],
     "outboundTag": "proxy",
+    "ip": [],
     "domain": [
       "rezka.ag",
       "v1.astar.bz",
       "www.vpngate.net",
       "yt3.ggpht.com",
       "anistar.org",
-      "animevost.org"
+      "animevost.org",
+      "porno365.plus",
+      "twitter.com",
+      "twimg.com",
+      "t.co",
+      "hdrezka.co"
     ],
-    "enabled": true
-  },
-  {
-    "port": "0-65535",
-    "inboundTag": [],
-    "outboundTag": "direct",
     "enabled": true
   }
 ]
