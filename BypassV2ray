@@ -1,16 +1,14 @@
 [
   {
-    "id": "5258544437050933804",
+    "id": "4727392015951299917",
     "port": "0-65535",
-    "inboundTag": [],
     "outboundTag": "direct",
     "ip": [],
     "domain": [],
-    "protocol": [],
     "enabled": true
   },
   {
-    "id": "5634822767808171303",
+    "id": "5588956728995907161",
     "port": "0-65535",
     "outboundTag": "proxy",
     "ip": [],
@@ -22,12 +20,10 @@
       "anistar.org",
       "animevost.org",
       "porno365.plus",
-      "twitter.com",
-      "twimg.com",
-      "t.co",
-      "hdrezka.co",
-      "instagram.com",
-      "fbcdn.net"
+      "geosite:twitter",
+      "geosite:facebook",
+      "geosite:instagram",
+      "hdrezka.co"
     ],
     "enabled": true
   }
