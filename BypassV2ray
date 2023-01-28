@@ -1,6 +1,16 @@
 [
   {
-    "id": "5714299276509772905",
+    "id": "5258544437050933804",
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": [],
+    "protocol": [],
+    "enabled": true
+  },
+  {
+    "id": "5634822767808171303",
     "port": "0-65535",
     "outboundTag": "proxy",
     "ip": [],
@@ -15,7 +25,9 @@
       "twitter.com",
       "twimg.com",
       "t.co",
-      "hdrezka.co"
+      "hdrezka.co",
+      "instagram.com",
+      "fbcdn.net"
     ],
     "enabled": true
   }
