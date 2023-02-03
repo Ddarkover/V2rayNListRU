@@ -1,14 +1,6 @@
 [
   {
-    "id": "4727392015951299917",
-    "port": "0-65535",
-    "outboundTag": "direct",
-    "ip": [],
-    "domain": [],
-    "enabled": true
-  },
-  {
-    "id": "5588956728995907161",
+    "id": "5179875618795321258",
     "port": "0-65535",
     "outboundTag": "proxy",
     "ip": [],
@@ -25,6 +17,14 @@
       "geosite:instagram",
       "hdrezka.co"
     ],
+    "enabled": true
+  },
+  {
+    "id": "4669647829749217569",
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": [],
     "enabled": true
   }
 ]
