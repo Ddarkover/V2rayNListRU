@@ -1,0 +1,38 @@
+[
+  {
+    "id": "4717733303762127273",
+    "port": "0-65535",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "*"
+    ],
+    "process": [],
+    "enabled": true
+  },
+  {
+    "id": "5555365238128549839",
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:ru"
+    ],
+    "domain": [
+      "geosite:category-gov-ru",
+      "regexp:.*\\\\.ru$"
+    ],
+    "process": [],
+    "enabled": true
+  },
+  {
+    "id": "5195241545746436782",
+    "port": "0-65535",
+    "outboundTag": "block",
+    "ip": [],
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "process": [],
+    "enabled": true
+  }
+]
