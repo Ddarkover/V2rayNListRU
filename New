@@ -1,6 +1,6 @@
 [
   {
-    "id": "4756228443087844242",
+    "id": "5213250775302118447",
     "port": "0-65535",
     "outboundTag": "block",
     "ip": [],
@@ -8,11 +8,14 @@
       "geoip:private",
       "geosite:category-ads-all"
     ],
+    "protocol": [
+      "bittorrent"
+    ],
     "process": [],
     "enabled": true
   },
   {
-    "id": "5380157553240088649",
+    "id": "5536501405553286616",
     "port": "0-65535",
     "outboundTag": "direct",
     "ip": [
@@ -26,7 +29,7 @@
     "enabled": true
   },
   {
-    "id": "5298676854544634469",
+    "id": "5008175410586687667",
     "port": "0-65535",
     "outboundTag": "proxy",
     "ip": [],
