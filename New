@@ -1,21 +1,17 @@
 [
   {
-    "id": "5213250775302118447",
+    "id": "5534775216257407783",
     "port": "0-65535",
-    "outboundTag": "block",
+    "outboundTag": "proxy",
     "ip": [],
     "domain": [
-      "geoip:private",
-      "geosite:category-ads-all"
-    ],
-    "protocol": [
-      "bittorrent"
+      "*"
     ],
     "process": [],
     "enabled": true
   },
   {
-    "id": "5536501405553286616",
+    "id": "5474246045153286240",
     "port": "0-65535",
     "outboundTag": "direct",
     "ip": [
@@ -29,12 +25,25 @@
     "enabled": true
   },
   {
-    "id": "5008175410586687667",
+    "id": "4613429842948526199",
     "port": "0-65535",
-    "outboundTag": "proxy",
+    "outboundTag": "block",
     "ip": [],
     "domain": [
-      "*"
+      "geoip:private",
+      "geosite:category-ads-all"
+    ],
+    "process": [],
+    "enabled": true
+  },
+  {
+    "id": "5302803554484847247",
+    "port": "0-65535",
+    "outboundTag": "block",
+    "ip": [],
+    "domain": [],
+    "protocol": [
+      "bittorrent"
     ],
     "process": [],
     "enabled": true
