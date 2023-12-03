@@ -1,17 +1,18 @@
 [
   {
-    "id": "4717733303762127273",
+    "id": "4756228443087844242",
     "port": "0-65535",
-    "outboundTag": "proxy",
+    "outboundTag": "block",
     "ip": [],
     "domain": [
-      "*"
+      "geoip:private",
+      "geosite:category-ads-all"
     ],
     "process": [],
     "enabled": true
   },
   {
-    "id": "5555365238128549839",
+    "id": "5380157553240088649",
     "port": "0-65535",
     "outboundTag": "direct",
     "ip": [
@@ -25,12 +26,12 @@
     "enabled": true
   },
   {
-    "id": "5195241545746436782",
+    "id": "5298676854544634469",
     "port": "0-65535",
-    "outboundTag": "block",
+    "outboundTag": "proxy",
     "ip": [],
     "domain": [
-      "geosite:category-ads-all"
+      "*"
     ],
     "process": [],
     "enabled": true
