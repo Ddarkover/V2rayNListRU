@@ -1,42 +1,17 @@
 [
   {
-    "id": "5210654900184653550",
+    "id": "5600597791761458310",
     "port": "0-65535",
-    "outboundTag": "direct",
+    "outboundTag": "proxy",
     "ip": [],
     "domain": [
-      "geosite:category-gov-ru",
-      "geoip:private",
-      "regexp:.*\\\\.ru$"
+      "*"
     ],
     "process": [],
     "enabled": true
   },
   {
-    "id": "5153370067614938114",
-    "port": "0-65535",
-    "outboundTag": "block",
-    "ip": [],
-    "domain": [
-      "geosite:category-ads-all"
-    ],
-    "process": [],
-    "enabled": true
-  },
-  {
-    "id": "5166314100764918986",
-    "port": "0-65535",
-    "outboundTag": "block",
-    "ip": [],
-    "domain": [],
-    "protocol": [
-      "bittorrent"
-    ],
-    "process": [],
-    "enabled": true
-  },
-  {
-    "id": "5607674083872757697",
+    "id": "5342817636295491091",
     "port": "0-65535",
     "outboundTag": "direct",
     "ip": [
@@ -47,12 +22,37 @@
     "enabled": true
   },
   {
-    "id": "5028970996800459894",
+    "id": "5530767510628249096",
     "port": "0-65535",
-    "outboundTag": "proxy",
+    "outboundTag": "direct",
     "ip": [],
     "domain": [
-      "*"
+      "geosite:category-gov-ru",
+      "geoip:private",
+      "regexp:.*\\.ru$"
+    ],
+    "process": [],
+    "enabled": true
+  },
+  {
+    "id": "4621571287470824671",
+    "port": "0-65535",
+    "outboundTag": "block",
+    "ip": [],
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "process": [],
+    "enabled": true
+  },
+  {
+    "id": "5523529910174540847",
+    "port": "0-65535",
+    "outboundTag": "block",
+    "ip": [],
+    "domain": [],
+    "protocol": [
+      "bittorrent"
     ],
     "process": [],
     "enabled": true
