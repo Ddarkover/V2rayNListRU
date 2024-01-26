@@ -1,6 +1,6 @@
 [
   {
-    "id": "5600597791761458310",
+    "id": "5131594003288810801",
     "port": "0-65535",
     "outboundTag": "proxy",
     "ip": [],
@@ -11,31 +11,7 @@
     "enabled": true
   },
   {
-    "id": "5342817636295491091",
-    "port": "0-65535",
-    "outboundTag": "direct",
-    "ip": [
-      "geoip:ru"
-    ],
-    "domain": [],
-    "process": [],
-    "enabled": true
-  },
-  {
-    "id": "5530767510628249096",
-    "port": "0-65535",
-    "outboundTag": "direct",
-    "ip": [],
-    "domain": [
-      "geosite:category-gov-ru",
-      "geoip:private",
-      "regexp:.*\\.ru$"
-    ],
-    "process": [],
-    "enabled": true
-  },
-  {
-    "id": "4621571287470824671",
+    "id": "4766845360227696360",
     "port": "0-65535",
     "outboundTag": "block",
     "ip": [],
@@ -46,14 +22,25 @@
     "enabled": true
   },
   {
-    "id": "5523529910174540847",
+    "id": "4761751793094405813",
     "port": "0-65535",
-    "outboundTag": "block",
+    "outboundTag": "direct",
     "ip": [],
-    "domain": [],
-    "protocol": [
-      "bittorrent"
+    "domain": [
+      "geoip:private",
+      "regexp:.*\\.ru$"
     ],
+    "process": [],
+    "enabled": true
+  },
+  {
+    "id": "5412400634084679392",
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:ru"
+    ],
+    "domain": [],
     "process": [],
     "enabled": true
   }
