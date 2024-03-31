@@ -1,6 +1,6 @@
 [
   {
-    "id": "5131594003288810801",
+    "id": "5622660913127611720",
     "port": "0-65535",
     "outboundTag": "proxy",
     "ip": [],
@@ -11,8 +11,8 @@
     "enabled": true
   },
   {
-    "id": "4766845360227696360",
-    "port": "0-65535",
+    "id": "4764534783728158641",
+    "port": "",
     "outboundTag": "block",
     "ip": [],
     "domain": [
@@ -22,22 +22,23 @@
     "enabled": true
   },
   {
-    "id": "4761751793094405813",
-    "port": "0-65535",
+    "id": "5199827278794042770",
+    "port": "",
     "outboundTag": "direct",
     "ip": [],
     "domain": [
-      "geoip:private",
+      "domain:ru",
       "regexp:.*\\.ru$"
     ],
     "process": [],
     "enabled": true
   },
   {
-    "id": "5412400634084679392",
-    "port": "0-65535",
+    "id": "5666959926461699027",
+    "port": "",
     "outboundTag": "direct",
     "ip": [
+      "geoip:private",
       "geoip:ru"
     ],
     "domain": [],
