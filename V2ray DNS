@@ -1,0 +1,23 @@
+{
+  "hosts": {
+    "dns.google": "8.8.4.4",
+    "dns.cloudflare.com": "1.0.0.1"
+  },
+  "servers": [
+    {
+      "address": "77.88.8.1",
+      "domains": [
+        "regexp:.*\\.ru$",
+        "regexp:^.*\\.su$",
+        "regexp:^.*\\.xn--[a-zA-Z0-9]+$"
+      ],
+      "expectIPs": [
+        "geoip:ru"
+      ]
+    },
+    "8.8.4.4",
+    "1.0.0.1",
+    "https://dns.cloudflare.com/dns-query",
+    "https://dns.google/dns-query"
+  ]
+}
