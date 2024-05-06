@@ -1,40 +1,37 @@
-{
-  "servers": [
-    {
-      "tag": "remote",
-      "address": "tcp://8.8.8.8",
-      "detour": "proxy"
-    },
-    {
-      "tag": "local",
-      "address": "77.88.8.1",
-      "detour": "direct"
-    },
-    {
-      "tag": "block",
-      "address": "rcode://success"
-    }
-  ],
-  "rules": [
-    {
-      "domain_suffix": [
-        ".ru",
-        ".su",
-        ".xn--*"
-      ],
-      "geoip": [
-        "ru"
-      ],
-      "server": "local",
-      "disable_cache": true
-    },
-    {
-      "geosite": [
-        "category-ads-all"
-      ],
-      "server": "block",
-      "disable_cache": true
-    }
-  ],
-  "strategy": "ipv4_only"
-}
+[
+  {
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private",
+      "geoip:ru"
+    ],
+    "domain": []
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": [
+      "regexp:.*\\.ru$",
+      "regexp:^.*\\.su$",
+      "regexp:^.*\\.xn--[a-zA-Z0-9]\u002B$"
+    ]
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "block",
+    "ip": [],
+    "domain": [
+      "geosite:category-ads-all"
+    ]
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "*"
+    ]
+  }
+]
