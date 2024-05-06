@@ -1,0 +1,37 @@
+{
+  "servers": [
+    {
+      "tag": "remote",
+      "address": "tcp://8.8.8.8",
+      "detour": "proxy"
+    },
+    {
+      "tag": "local",
+      "address": "77.88.8.1",
+      "detour": "direct"
+    },
+    {
+      "tag": "block",
+      "address": "rcode://success"
+    }
+  ],
+  "rules": [
+    {
+      "domain_suffix": [
+        ".ru",
+        ".su",
+        ".xn--*"
+      ],
+      "geoip": [
+        "ru"
+      ],
+      "server": "local"
+    },
+    {
+      "geosite": [
+        "category-ads-all"
+      ],
+      "server": "block"
+    }
+  ]
+}
