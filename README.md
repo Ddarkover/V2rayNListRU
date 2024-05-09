@@ -11,3 +11,5 @@
 **domainStrategy: IPIfNonMatch**
 
 **domainMatcher: mph**
+
+Эти **Routing lists** предназначены для программы [v2rayN](https://github.com/2dust/v2rayN)!
