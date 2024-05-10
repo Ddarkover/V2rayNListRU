@@ -1,0 +1,41 @@
+[
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": [],
+    "protocol": [
+      "bittorrent"
+    ]
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "block",
+    "ip": [],
+    "domain": [
+      "geosite:category-ads-all"
+    ]
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "ext:geosite_RU.dat:ru-block"
+    ]
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "proxy",
+    "ip": [
+      "ext:geoip_RU.dat:ru-block"
+    ],
+    "domain": []
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": []
+  }
+]
