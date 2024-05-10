@@ -1,15 +1,6 @@
 [
   {
-    "port": "0-65535",
-    "outboundTag": "direct",
-    "ip": [
-      "geoip:private",
-      "geoip:ru"
-    ],
-    "domain": []
-  },
-  {
-    "port": "0-65535",
+    "port": "",
     "outboundTag": "direct",
     "ip": [],
     "domain": [
@@ -19,7 +10,16 @@
     ]
   },
   {
-    "port": "0-65535",
+    "port": "",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private",
+      "geoip:ru"
+    ],
+    "domain": []
+  },
+  {
+    "port": "",
     "outboundTag": "block",
     "ip": [],
     "domain": [
