@@ -4,6 +4,8 @@
 
 **Routing lists - RU** - Обход блокировок Роскомнадзора по списку [ru-block-v2ray-rules](https://github.com/Nidelon/ru-block-v2ray-rules); Блокировка рекламы; Остальной трафик напрямую; Аналог V2-黑名单(Blacklist).
 
+`Примечание по RU:Списки надо скачать и установить в папку V2rayN в директроию /bin.`
+
 **Routing DNS - V2ray DNS** - Использование серверов DNS Google (8.8.4.4) и Cloudflare (1.0.0.1); Для доменов (.ru, .su и .xn--), ожидая IP-адресов RU, использование Яндекс DNS (77.88.8.1).
 
 **Routing DNS - Sing-box DNS Http-Socks** - Использование серверов DNS Google (8.8.4.4); Для доменов (.ru, .su и .xn--), ожидая IP-адресов RU, использование Яндекс DNS (77.88.8.1).
@@ -15,5 +17,3 @@
 **domainMatcher: mph**
 
 Эти **Routing lists** предназначены для программы [v2rayN](https://github.com/2dust/v2rayN)!
-
-`Примечание по RU:Списки надо скачать и установить в папку V2rayN в директроию /bin.`
