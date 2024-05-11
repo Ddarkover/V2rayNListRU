@@ -1,15 +1,15 @@
-**Routing Lists - ALL**
+## **Routing Lists - ALL**
 - Все соединения маршрутизируются через прокси
 - Реализована блокировка рекламы
 - Эквивалент V2-全局 (Глобальный)
 
-**Routing Lists - Legacy RU**
+## **Routing Lists - Legacy RU**
 - Прямой доступ к российским IP-адресам и доменам (.ru, .su и .xn--)
 - Реализована блокировка рекламы
 - Остальной трафик направляется через прокси
 - Эквивалент V2-绕过大陆 (Обход блокировки)
 
-**Routing Lists - RU**
+## **Routing Lists - RU**
 - Обход блокировок Роскомнадзора с использованием списка [ru-block-v2ray-rules](https://github.com/Nidelon/ru-block-v2ray-rules)
 - Реализована блокировка рекламы
 - Остальной трафик направляется напрямую
@@ -17,19 +17,19 @@
 
 *Примечание по RU: Необходимо скачать и установить списки в папку V2rayN по пути /bin.*
 
-**Routing DNS - V2ray DNS**
+## **Routing DNS - V2ray DNS**
 - Используются серверы DNS Google (8.8.4.4) и Cloudflare (1.0.0.1)
 - Для доменов (.ru, .su и .xn--), ожидающих IP-адресов RU, используется Яндекс DNS (77.88.8.1)
 
-**Routing DNS - Sing-box DNS Http-Socks**
+## **Routing DNS - Sing-box DNS Http-Socks**
 - Используются серверы DNS Google (8.8.4.4)
 - Для доменов (.ru, .su и .xn--), ожидающих IP-адресов RU, используется Яндекс DNS (77.88.8.1)
 
-**Routing DNS - Sing-box DNS TunMode**
+## **Routing DNS - Sing-box DNS TunMode**
 - Используются серверы DNS Google (8.8.4.4)
 - Для доменов (.ru, .su и .xn--), ожидающих IP-адресов RU, используется Яндекс DNS (77.88.8.1)
 - Используется только IPv4
-
+---
 **domainStrategy: IPIfNonMatch**
 
 **domainMatcher: mph**
