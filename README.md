@@ -10,7 +10,7 @@
 - Аналог V2-绕过大陆(Whitelist)
 
 ## **Routing Lists - RU**
-- Обход блокировок Роскомнадзора с помощью списка [ru-block-v2ray-rules](https://github.com/Nidelon/ru-block-v2ray-rules).
+- Обход блокировок Роскомнадзора с помощью списка [ru-block-v2ray-rules](https://github.com/Nidelon/ru-block-v2ray-rules)
 - Блокировка рекламы
 - Остальной трафик идет напрямую
 - Аналог V2-黑名单(Blacklist)
