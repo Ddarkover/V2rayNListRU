@@ -17,7 +17,7 @@
 
 *Примечание по RU №1: Необходимо скачать и установить списки в папку V2rayN по пути /bin.*
 
-*Примечание по RU №2: Можно поместить скрипт ([Update_RU.ps1](https://github.com/Ddarkover/V2rayNListRU/blob/main/Update_RU.ps1)) в папку V2rayN по пути /bin, и при его запуске он самостоятельно загрузит geosite и geoip.*
+*Примечание по RU №2: Можно поместить скрипт ([Update_RU.ps1](https://github.com/Ddarkover/V2rayNListRU/blob/main/Update_RU.ps1)) в папку V2rayN по пути /bin, и при его запуске он самостоятельно загрузит/обновит geosite и geoip.*
 
 ## **Routing DNS - V2ray DNS**
 - Используются серверы DNS Google (8.8.4.4) и Cloudflare (1.0.0.1)
