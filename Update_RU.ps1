@@ -4,7 +4,9 @@ $urlGeoip = "https://github.com/Nidelon/ru-block-v2ray-rules/raw/release/geoip.d
 
 # Функция для загрузки файла
 function DownloadFile($url, $outputPath) {
-    Invoke-WebRequest -Uri $url -OutFile $outputPath
+    $webClient = New-Object System.Net.WebClient
+    $webClient.DownloadFile($url, $outputPath)
+    Write-Host "Successfully downloaded $url to $outputPath"
 }
 
 # Скачиваем файлы и переименовываем их
