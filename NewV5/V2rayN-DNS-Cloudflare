@@ -1,0 +1,40 @@
+{
+  "hosts": {
+    "dns.google": "8.8.8.8",
+    "dns.cloudflare.com": "1.1.1.1"
+  },
+  "servers": [
+    {
+      "address": "77.88.8.1",
+      "skipFallback": true,
+      "domains": [
+        "geosite:category-ru"
+      ],
+      "expectIPs": [
+        "geoip:ru"
+      ]
+    },
+    {
+      "address": "77.88.8.8",
+      "skipFallback": true,
+      "domains": [
+        "geosite:category-ru"
+      ],
+      "expectIPs": [
+        "geoip:ru"
+      ]
+    },
+    {
+      "address": "https://dns.cloudflare.com/dns-query",
+      "proxy": true,
+      "skipFallback": true
+    },
+    {
+      "address": "https://dns.google/dns-query",
+      "proxy": true,
+      "skipFallback": true
+    },
+    "1.0.0.1",
+    "8.8.4.4"
+  ]
+}
