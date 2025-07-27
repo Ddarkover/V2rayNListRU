@@ -15,12 +15,26 @@
       ]
     },
     {
+      "address": "77.88.8.8",
+      "skipFallback": true,
+      "domains": [
+        "geosite:category-ru"
+      ],
+      "expectIPs": [
+        "geoip:ru"
+      ]
+    },
+    {
+      "address": "https://dns.google/dns-query",
+      "proxy": true,
+      "skipFallback": true
+    },
+    {
       "address": "https://dns.cloudflare.com/dns-query",
       "proxy": true,
       "skipFallback": true
     },
-    "1.0.0.1",
     "8.8.4.4",
-    "https://dns.google/dns-query"
+    "1.0.0.1"
   ]
 }
